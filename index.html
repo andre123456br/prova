@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JUSPSI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="div-primary">
+      <p>Só Hoje! Desconto de 50% nos cursos preparatórios - <span>Termina em 00:58:16h</span></p>
+    </div>
+    <div class="juninho">
+      <img src="img/logo.svg" alt="logo">
+      <div class="header-oi">
+        <div class="lupa"><img src="img/lupa.svg" alt=" lupa"></div>
+
+        <div class="login"><p> <img src="img/login.svg" alt="login"> Login  |  Criar conta</p></div>
+
+        <div id="myNav" class="overlay">
+
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <div class="menu-list">
+            <a href="#">> HOME</a>
+            <a href="#">> INSTITUCIONAL</a>
+            <a href="#">> NOVIDADES</a>
+            <a href="#">> MATERIAIS GRATUITOS</a>
+            <a href="#">> DEPOIMENTOS</a>
+            <a href="#">> CONTATOS</a>
+          </div>
+          
+          <div class="menu-list-two">
+            <a href="#">Cursos de Direito</a>
+            <a href="#">Cursos de Psicologia</a>
+            <a href="#">Cursos de Serviço Social</a>
+            <a href="#">Cursos Preparatorios</a>
+            <a href="#">Coaching e Inteligência Emocional </a>
+            <a href="#">Cursos Para sua Empresa</a>
+          </div>
+          </div>
+        
+        </div>
+        <script>function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }</script>
+        <script>function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }</script>
+        <div class="menu">
+          <span onclick="openNav()">
+            <div class="container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </span>
+          
+        <p>MENU</p>
+        </div>
+          <script>function myFunction(x) {
+            x.classList.toggle("change");
+          }</script>
+      </div>
+    </div>
+    <div class="imagem-header">
+
+
+    </div>
+
+
+
+  </header>
+
+  <main>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="h1-main">
+            <h1>Terapia cognitivo comportamental</h1>
+            <p>Passo a passo para se tornar um excelente psicoterapeuta.</p>
+            <p id="click">CLIQUE E CONHEÇA</p>
+          </div>
+          <img src="img/imagem-header.png" alt="">
+          
+        </div>
+        <div class="swiper-slide">
+          
+            <h1>Terapia cognitivo comportamental</h1>
+            <p>Passo a passo para se tornar um excelente psicoterapeuta.</p>
+            <p id="click">CLIQUE E CONHEÇA</p>
+          <img src="img/imagem-header.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="h1-main">
+            <h1>Terapia cognitivo comportamental</h1>
+            <p>Passo a passo para se tornar um excelente psicoterapeuta.</p>
+            <p id="click">CLIQUE E CONHEÇA</p>
+          </div>
+          <img src="img/imagem-header.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="h1-main">
+            <h1>Terapia cognitivo comportamental</h1>
+            <p>Passo a passo para se tornar um excelente psicoterapeuta.</p>
+            <p id="click">CLIQUE E CONHEÇA</p>
+          </div>
+          <img src="img/imagem-header.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="h1-main">
+            <h1>Terapia cognitivo comportamental</h1>
+            <p>Passo a passo para se tornar um excelente psicoterapeuta.</p>
+            <p >CLIQUE E CONHEÇA</p>
+          </div>
+          <img src="img/imagem-header.png" alt="">
+        </div>
+
+        <div class="setas">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <div class="categorias">
+
+      <div class="paragrafos">
+        <h2>Principais Categorias</h2> <p>Acesse conteúdos da sua área, e experimente novos campos de atuação, expandindo as suas estratégias, técnicas e possibilidades de ingresso no mercado de trabalho</p>
+      </div>
+      
+      <div>
+
+        <div class="hover">
+    
+        <div class="ball-hover">
+          <div class="card-one">
+            
+            <div class="myDIV">
+              <img src="img/Group 840.svg" alt="+">
+            </div>
+          </div>
+        </div>
+        <div class="hide">I am shown when someone hovers over the div above.</div>
+
+        <div class="ball-hover">
+          <div class="card-two">
+            
+            <div class="myDIV">
+              <img src="img/Group 840.svg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="hide">I am shown when someone hovers over the div above.</div>
+
+        <div class="ball-hover">
+          <div class="card-tree">
+           
+            <div class="myDIV">
+              <img src="img/Group 840.svg" alt="">
+           </div>
+        </div>
+        </div>
+        <div class="hide">I am shown when someone hovers over the div above.</div>
+
+        <div class="ball-hover">
+          <div class="card-four">
+            
+            <div class="myDIV">
+              <img src="img/Group 840.svg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="hide">I am shown when someone hovers over the div above.</div>
+
+      </div>
+    </div>
+  
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,371 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+.div-primary{
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #31306C -0.7%, #643A9B 47.21%, #F07F3C 98.21%);
+}
+
+.juninho {
+    position: absolute;
+    top: 55px;
+    z-index: 10000000000000000000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.juninho img{
+    margin-left: 3px;
+}
+span{
+    font-weight: bold;
+}
+.div-primary p{
+    font-size: 18px;
+    font-family: "Inter";
+    color: #FFFFFF;
+}
+.imagem-header{
+    
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-next:after{
+    color: #FFFFFF;
+    
+}
+.swiper-button-prev:after{
+    color: #FFFFFF;
+    
+}
+.swiper-pagination-bullet{
+    Height:9px;
+    width:177px;
+    left: 1077px;
+}
+.setas{
+    width: 125px;
+    padding-left: 100px;
+}
+.swiper-pagination-bullets {
+    left: -1320px;
+    
+}
+
+.header-oi {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+.swiper-slide h1{
+    width: 734px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    left: 388px;
+    top: 159px;
+    position: absolute;
+    font-size: 64px;
+    font-weight: 900px;
+    line-height: 58px;
+}
+.lupa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #F07F3C;
+    z-index: 3;
+}
+
+.login {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    background-color: #F07F3C;
+    border: 8px solid #F07F3C;
+    border-radius: 100px;
+    z-index: 3;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F07F3C;
+    width: 133px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    z-index: 3;
+}
+.menu p{
+    margin-left: 10px;
+    font-family: 'Inter';
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+   
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F07F3C;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    
+    left: 0;
+    top: 0;
+    background-color: #292856;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  .menu-list{
+    width: 50%;
+    background-color: #292856;
+    height: 100%;
+  }
+  .menu-list-two{
+    width: 50%;
+    background: linear-gradient(90deg, #31306C -0.7%, #643A9B 47.21%, #F07F3C 98.21%);
+    height: 100%;
+  }
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    display: flex;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    font-family: 'Inter';
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-slide p{
+    font-size: 24px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    position: absolute;
+    left: 472px;
+    top: 295px;
+    width: 340px;
+    height: 52px;
+    font-weight: 500;
+    line-height: 26px;
+}
+#click{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 26px;
+    width: 266px;
+    height: 45px;
+    border: 2px solid #F07F3C;
+    background-color: #F07F3C;
+    border-radius: 100px;
+    left: 520px;
+    top: 362px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #fff !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin-left: 20px !important;
+}
+.swiper-pagination-bullet{
+    Width:9px;
+    Height:9px;
+    background: #fff;
+    background-color: transparent;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    margin-bottom: 50px;
+}
+:root {
+    --swiper-theme-color: #FFFF;
+}
+.categorias{
+    background-color: #31306C;
+    width: 100%;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+    flex-direction: column;
+}
+.hover{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 23px;
+}
+
+.paragrafos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    width: 924px;
+    margin-top: 00px;
+}
+.paragrafos h2{
+    font-size: 35px;
+    font-family: 'Inter';
+    margin-top: 00px;
+    
+}
+.paragrafos p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto';
+    padding-top: 10px;
+    
+}
+.hide {
+    display: none;
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+    
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 3;
+    font-family: 'Inter';
+  }
+  .hover{
+    display: flex;
+    margin-top: 30px;
+  }
+  .myDIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border: 2px solid #F07F3C;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: .5s;
+    margin-top: 90px;
+    margin-right: 110px;
+  }
+  
+
+  .myDIV:hover {
+    background-color: #F07F3C;
+
+  }
+  .card-one{
+    background-image: url(img/Group\ 1185.png);
+    width: 316px;
+    height: 538px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+  .card-two{
+    background-image: url(img/Group\ 1186.png);
+    width: 316px;
+    height: 538px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .card-tree{
+    background-image: url(img/Group\ 1188.png);
+    width: 316px;
+    height: 538px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .card-four{
+    background-image: url(img/Group\ 1189.png);
+    width: 316px;
+    height: 538px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
